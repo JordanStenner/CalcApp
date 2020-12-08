@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/JordanStenner/CalcApp/issues"
   },
-  "homepage": "https://github.com/JordanStenner/CalcApp#readme"
+  "homepage": "https://github.com/JordanStenner/CalcApp#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1"
+  }
 }
