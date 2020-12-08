@@ -29,8 +29,7 @@ suite("Test add numbers", function(){
     let num1 = 5;
     let num2 = 2;
     let testResult = num1 + num2;
-    let add = logic.addNumbers();
 
-    chai.assert.equal(add(num1, num2), testResult, "5 + 2 should be 7");
+    chai.assert.equal(logic.addNumbers(num1, num2), testResult, "5 + 2 should be 7");
   });
 });
